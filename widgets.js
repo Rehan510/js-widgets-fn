@@ -1,4 +1,4 @@
-window.getObjValue = (obj, key, alternateValue = null) => {
+window.getObjValue = (obj, key, alternateValue) => {
     if (!obj || typeof obj !== 'object') {
         return alternateValue;
     }
